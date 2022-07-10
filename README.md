@@ -7,8 +7,6 @@
 If you prefer video format instead, just follow the link below
 ```
 
-[Complete Video Tutorial](https://youtu.be/UDdyGNlQK5w)
-
 ## Normalize
 
 Small CSS file that provides cross-browser consistency in the default styling of HTML elements.
