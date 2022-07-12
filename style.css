@@ -2,6 +2,8 @@
 ::after,
 ::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
@@ -251,4 +253,36 @@ ul {
   height: 0.25rem;
   margin: 0 auto;
   margin-top: -1rem;
+}
+
+header {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  color: black;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+header span {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.counter-center {
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.counter-center a {
+  background-color: transparent;
+  color: var(--black);
+  letter-spacing: 1px;
+  border: 2px solid var(--black);
 }
